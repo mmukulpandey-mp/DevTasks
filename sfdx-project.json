@@ -1,11 +1,25 @@
 {
   "packageDirectories": [
-    {
-      "path": "force-app",
-      "default": true
-    }
+      {
+          "path": "force-app",
+          "default": true,
+          "package": "jenkinsDemo",
+          "versionName": "ver 0.1",
+          "versionNumber": "0.1.0.NEXT"
+      },
+      {
+          "path": "force-app\\main\\default",
+          "package": "jenkins",
+          "versionName": "Jenkins Winter ‘20",
+          "versionNumber": "1.0.0.NEXT",
+          "default": false
+      }
   ],
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "45.0"
+  "sourceApiVersion": "45.0",
+  "packageAliases": {
+      "jenkinsDemo": "0Ho0K000000XZDpSAO",
+      "jenkinsDemo@1.0.0-1": "",
+  }
 }
